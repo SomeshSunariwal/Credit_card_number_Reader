@@ -8,10 +8,12 @@ You just have to modifie some parameter of the CNN
       pip install -r requirement.txt
 
 # Use for making DATASET
-1. 
-[](creditcard_digits1.jpg)
-2.
-[](creditcard_digits2.jpg)
+1.  
+![](creditcard_digits1.jpg)
+  
+    
+2.  
+![](creditcard_digits2.jpg)
 
 # Result
 ![](images/1.png)
