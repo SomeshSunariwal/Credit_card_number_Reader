@@ -240,7 +240,7 @@ roi = image[top_left_y:bottom_right_y, top_left_x:bottom_right_x]
 roi = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
 _, roi = cv2.threshold(roi, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU )
 
-# Cheack the crop Number Strip background is anythong but digite in the strip must black
+# Cheack the crop Number Strip background is anything but digite in the strip must black
 cv2.imshow("Region 1", roi)
 cv2.imwrite("extracted_digits_1.jpg", roi)
 cv2.waitKey(0)
